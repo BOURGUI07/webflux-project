@@ -1,7 +1,6 @@
-package com.example.webflux.playground.sec02.dto;
+package com.example.webflux.playground.sec02.dto.projections;
 
 import java.time.Instant;
-import java.util.UUID;
 
 public record OrderDetails(
         Integer orderId,

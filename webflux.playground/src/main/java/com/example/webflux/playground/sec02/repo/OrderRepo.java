@@ -1,6 +1,6 @@
 package com.example.webflux.playground.sec02.repo;
 
-import com.example.webflux.playground.sec02.dto.OrderDetails;
+import com.example.webflux.playground.sec02.dto.projections.OrderDetails;
 import com.example.webflux.playground.sec02.entity.Order;
 import com.example.webflux.playground.sec02.entity.Product;
 import org.springframework.data.r2dbc.repository.Query;
