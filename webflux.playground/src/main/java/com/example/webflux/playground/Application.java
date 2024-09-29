@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.r2dbc.repository.config.EnableR2dbcRepositories;
 
-@SpringBootApplication(scanBasePackages = "com.example.webflux.playground.sec05")
-@EnableR2dbcRepositories(basePackages = "com.example.webflux.playground.sec05")
+@SpringBootApplication(scanBasePackages = "com.example.webflux.playground.sec06")
+@EnableR2dbcRepositories(basePackages = "com.example.webflux.playground.sec06")
 public class Application {
 
 	public static void main(String[] args) {
